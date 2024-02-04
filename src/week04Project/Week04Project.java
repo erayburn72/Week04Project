@@ -87,7 +87,7 @@ public class Week04Project {
 
 		// 9. Write a method that takes array of int...returns true/false if > 100.
 		// Method down below.
-		int[] arrayGreater = { 25, 25, 25, 24 }; // change this value to see results. If equal to 100 it will say false
+		int[] arrayGreater = { 25, 25, 25, 26 }; // change this value to see results. If equal to 100 it will say false
 													// based on method below.
 
 		System.out.println(isGreater100(arrayGreater));
@@ -100,7 +100,7 @@ public class Week04Project {
 		// 11. write a method that takes two...returns true if average in first is >
 		// average in second.
 
-		double[] thrice = { 15.7, 18.5, 19.20, 1000.2 };// change the 0.2 in the last element to 1000.2 to show false,
+		double[] thrice = { 15.7, 18.5, 19.20, 0.2 };// change the 0.2 in the last element to 1000.2 to show false,
 														// otherwise, it is true as is.
 
 		System.out.println("Array 1 is > than Array 2:" + isDoubleGreater(twice, thrice));
